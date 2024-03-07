@@ -1,0 +1,2 @@
+Method: PUT, URL: /update-data, Body: {"name":"Yara Hanna Shaheen"}
+Method: DELETE, URL: /delete-data, Body: {"name":"Yara Hanna Shaheen"}
