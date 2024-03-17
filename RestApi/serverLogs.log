@@ -1,0 +1,9 @@
+Method: GET, URL: /, Body: {}
+Method: POST, URL: /, Body: {"name":"yara"}
+Method: POST, URL: /submit-data, Body: {"name":"yara"}
+Method: GET, URL: /get-data, Body: {"name":"yara"}
+Method: GET, URL: /get-data, Body: {"name":"yara"}
+Method: GET, URL: /get-data, Body: {"name":"yara"}
+Method: GET, URL: //get-data, Body: {"name":"yara"}
+Method: POST, URL: //get-data, Body: {"name":"yara"}
+Method: POST, URL: //submite-data, Body: {"name":"yara"}
