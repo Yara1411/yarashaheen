@@ -2,7 +2,7 @@ const http = require('http');
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
-
+require('dotenv').config();//load enviroment variables.
 //Import Routes
 const dataRouts  = require('./dataRoutes');
 const middleware = require('./middleware');

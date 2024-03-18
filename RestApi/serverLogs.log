@@ -1,9 +1,5 @@
-Method: GET, URL: /, Body: {}
-Method: POST, URL: /, Body: {"name":"yara"}
-Method: POST, URL: /submit-data, Body: {"name":"yara"}
-Method: GET, URL: /get-data, Body: {"name":"yara"}
-Method: GET, URL: /get-data, Body: {"name":"yara"}
-Method: GET, URL: /get-data, Body: {"name":"yara"}
-Method: GET, URL: //get-data, Body: {"name":"yara"}
-Method: POST, URL: //get-data, Body: {"name":"yara"}
-Method: POST, URL: //submite-data, Body: {"name":"yara"}
+Method: POST, URL: /data.json/submit-data, Body: {"name":"Yara"}
+Method: POST, URL: /data.json/create-data, Body: {}
+Method: PUT, URL: /data.json/create-data, Body: {"name":"Yara"}
+Method: PUT, URL: /data.json/update-data, Body: {"name":"Yara"}
+Method: DELETE, URL: /data.json/delete-data, Body: {"name":"Yara"}
